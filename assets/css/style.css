@@ -15,7 +15,6 @@
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 section {
@@ -26,7 +25,6 @@ section {
     flex-direction: column;
     align-items: center;
     align-content: center;
-
 }
 
 .d-flex {
@@ -44,8 +42,6 @@ section {
 .justify-content-center {
     justify-content: center;
 }
-
-
 
 .align-item-center {
     align-items: center;
@@ -79,7 +75,6 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #2F1893;
-
     height: 100vh;
 }
 
@@ -96,17 +91,15 @@ section {
     color: #FFFFFF;
     position: relative;
     text-decoration: none;
-
-
 }
 
 .nav-links {
     display: inline-block;
     position: relative;
     color: #FFFFFF;
-  }
-  
-  .nav-links::after {
+}
+
+.nav-links::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -117,16 +110,16 @@ section {
     background-color: #fff;
     transform-origin: bottom right;
     transition: transform 0.25s ease-in;
+}
 
-  }
-  .nav-links:hover{
-    color:#FFFFFF;
-  }
-  
-  .nav-links:hover::after {
+.nav-links:hover {
+    color: #FFFFFF;
+}
+
+.nav-links:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
 
 .sign-up-btn {
     width: 100px;
@@ -140,14 +133,11 @@ section {
     border: none;
     border-radius: 100px;
     background-color: #25DAC5;
-
-
-
+    cursor: pointer;
 }
 
 .flex-grow {
     flex-grow: 1;
-
 }
 
 .z-2 {
@@ -173,7 +163,7 @@ section {
     margin-bottom: 80px;
 }
 
-.de-flex {
+.card{
     display: flex;
     flex-direction: column;
 }
@@ -188,7 +178,6 @@ section {
     width: 100%;
     color: #FFFFFF;
 }
-
 
 @media (max-width:768px) {
     label>span {
@@ -211,7 +200,6 @@ section {
     }
 
     label[for="menubar"]>span {
-
         width: 35px;
         height: 3px;
         background-color: #fff;
@@ -219,8 +207,6 @@ section {
         display: flex;
         margin-bottom: 5px;
         transition: all 300ms linear;
-
-
     }
 
     .mobile-view {
@@ -232,15 +218,13 @@ section {
         height: 100vh;
         position: fixed;
         top: 0%;
-        background-color:#131037;
+        background-color: #131037;
         right: -100%;
         transition: all 200ms linear;
     }
 
     input[type="checkbox"]:checked~.mobile-view {
         right: 0;
-
-
     }
 
     .flex-direction {
@@ -264,8 +248,8 @@ section {
         text-align: center;
         color: #FFFFFF;
     }
-    .para-2{
+
+    .para-2 {
         font-size: 15px;
     }
-
 }
